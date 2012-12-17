@@ -29,56 +29,85 @@ class FactoryTalkXML:
             text = text + '/>' + '\n'
         return text
 
-
-
-def populate(xml_filename): # Requires 4-space delimited XML files with no more than one tag per line
+def populate(xml_filename): # Requires 4-space delimited XML files, one tag per line
     xml_file = open(xml_filename, "r")   
-xml_object_dict = {}
+    xml_object_dict = {}
     line_number = 0
     autogen_names = 0
-
-    
-    new_attributes = [] # temp holding place until assigned to an object
-    new_children = []
-    new_name = ''
-    new_nest_level = None
-    
-    
-    nest_in_prev_object = False
-    new_xml = None # Go back and see if this statement is necessary
-    prev_nest_level = 0
-    prev_name = ""
+    children = [] 
+    this_isChild = False
+    prev_nest_level = -1
     
     for line in xml_file:        
         line_number += 1
-
-        
-        new_nest_level = line.find('<')/4 
-        isChild = (prev_nest_level < new_nest_level)
-        line = line.lstrip(' ') #trim the indentations
-        isClosingTag = '</' in line # Determines if this line is a tag is of form </foo>        
-        if isClosingTag:
-            continue # There is nothing to do if this is the closing tag. Escape from this interation
-        isPair = (not '/>' in line) and (not '</' in line)  # Determines if tag is a single <foo bar/> or a <foo></foo> pair        
-        line = line.lstrip('<') # trim the open angle bracket        
-        while (line.find(' ') != -1): # strip attributes one by one
-            attribute_end_char = line.find(' ')
-            new_attributes.append(line[0:attribute_end_char])
-            line = line[attribute_end_char+1:]
-        attribute_end_char = line.find('>')
-        if not isPair:
-            attribute_end_char = attribute_end_char - 1
-        new_attributes.append(line[1:attribute_end_char]) # Get the final attribute that's touching the '>'
-        name = get_name(new_attributes)        
-        if name == 'xml_object':
-            autogen_names = autogen_names + 1   
-            name = name + str(autogen_names)          
-        new_xml = xml_object(new_attributes, name, isPair) #First create the new object
-        xml_object_dict[name] = new_xml # Now add it to the complete dictionary by name
-        xml_object_dict[line_number] = new_xml # Also pair a key for line number it was encountered
-        if (nest_in_prev_object and (prev_name!="") ):
-            xml_object_dict[prev_name].attributes.append(new_xml) # Now add it as a child to the parent
-        prev_name = name
-        new_attributes = [] #Clear the temporary list for reuse
+        nest_level = get_nest_level(line)
+        attributes = get_attributes(line)
+        isChild = (prev_nest_level < nest_level)
+        type = get_type(line)
+        if this_type == 'close':
+            continue
+        elif type == 'open':
+            isPair = True
+        elif type == 'single':
+            isPair = False
+        else:
+            print "Bad line encountered on line " + str(line_number)
+            assert False
+        name = get_name(attributes)
+        if name = 'xml_object':
+            autogen_names += 1
+            name = name + str(autogen_names)                
+        xml = FactoryTalkXML(name, attributes, children, nest_level, line_number, isPair)
+        xml_dict[name] = xml # Now add it to the complete dictionary by name
+        xml_dict[line_number] = xml # Also pair a key for line number it was encountered
+        if isChild:
+            nest_key = get_nest_key(xml)
+            xml_dict[nest_key].children.append(xml) 
     xml_file.close()
-    return xml_object_dict
+    return xml_dict
+
+def get_nest_level(line):
+    return line.find('<')/4
+
+def get_attributes(line):
+    attributes = []
+    this_attribte = ''
+    line = line.lstrip(' ')
+    line = line.lstrip('<')
+    for char in line:
+        if is not ' ' and is not '>':
+            this_attribute = this_attribute + char
+        else:
+            attributes.append(this_attribute)
+            this_attribute = ''
+    return attributes
+        
+def get_type(line):
+    if '/>' in line:
+        return 'single'
+    elif '</' in line:
+        return 'close'
+    elif '<' in line:
+        return 'open'
+    else:
+        return 'bad'
+        
+def get_name(attributes):
+    for attribute in attributes:
+        if 'name' in attribute:
+            isFactoryTalkName = attribute[len(attribute-2)].isnumberic() # FT names in the object explorer end in a number
+            if isFactoryTalkName:
+                start_char = attribute.find('"') + 1
+                end_char = attribute.rfind('"')
+                return attribute[start_char:end_char]
+    return 'xml_object'
+
+def get_nest_key(xml, xml_dict):
+    current_nest_level = xml.nest_level
+    current_line_number = xml.line_number
+    while xml.nest_level == current_nest_level:
+        current_line_number -= 1
+        current_nest_level = xml_dict[current_line_number].nest_level
+    return current_line_number
+        
+  
