@@ -1,0 +1,1068 @@
+<gfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Gfx-ME5.xsd">
+    <displaySettings displayType="replace" securityCode="*" backColor="#E0E0E0" maximumTagUpdateRate="0.5" focusHighlightColor="lime" disableFocusHighlight="true" width="640" height="480" displayNumber="1" disableInitialInputFocus="false" startupMacro="" shutdownMacro=""/>
+    <multistateIndicator name="MultistateIndicator9" height="120" width="90" left="550" top="115" visible="true" wallpaper="false" isReferenceObject="false" backStyle="solid" borderStyle="raisedInset" borderUsesBackColor="true" borderWidth="4" description="" shape="rectangle" triggerType="value" currentStateId="1" captionOnBorder="false" setLastStateId="2">
+        <states>
+            <state stateId="Error" backColor="#E0E0E0" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="12" bold="true" italic="false" underline="false" strikethrough="false" caption="Error" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="0" value="0" backColor="#E0E0E0" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Maintained&#xA;Jog" color="black" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="1" value="1" backColor="#E0E0E0" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Maintained&#xA;Jog" color="black" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+        </states>
+        <connections>
+            <connection name="Indicator" expression="{DUMMY_BOOL}"/>
+        </connections>
+    </multistateIndicator>
+    <multistateIndicator name="MultistateIndicator6" height="35" width="80" left="124" top="235" visible="true" wallpaper="false" isReferenceObject="false" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="1" captionOnBorder="false" setLastStateId="2">
+        <states>
+            <state stateId="Error" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="JOG&#xA;REVERSE" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="0" value="0" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="REVERSE" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="1" value="1" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="REVERSE" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+        </states>
+        <connections>
+            <connection name="Indicator" expression="{DUMMY_BOOL}"/>
+        </connections>
+    </multistateIndicator>
+    <multistateIndicator name="MultistateIndicator7" height="35" width="80" left="210" top="235" visible="true" wallpaper="false" isReferenceObject="false" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="1" captionOnBorder="false" setLastStateId="2">
+        <states>
+            <state stateId="Error" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="JOG&#xA;FORWARD" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="0" value="0" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="FORWARD" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="1" value="1" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="FORWARD" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+        </states>
+        <connections>
+            <connection name="Indicator" expression="{DUMMY_BOOL}"/>
+        </connections>
+    </multistateIndicator>
+    <momentaryButton name="MomentaryPushButton9" height="35" width="80" left="210" top="235" visible="true" wallpaper="false" isReferenceObject="false" audio="true" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" buttonAction="normallyOpen" description="" holdTime="250" highlightColor="lime" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" currentStateId="0" captionOnBorder="false">
+        <states>
+            <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="0" backColor="#00C000" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="FORWARD" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="1" backColor="lime" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="JOGGING" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+        </states>
+        <animations>
+            <animateVisibility expression="{[CLOGIX]AxisManual_ShuttleFeeder2.JogFwd_Available}" expressionTrueState="visible"/>
+        </animations>
+        <connections>
+            <connection name="Value" expression="{[CLOGIX]AxisManual_ShuttleFeeder2.Jog_FWD}"/>
+            <connection name="Indicator" expression="{[CLOGIX]AxisCmd_ShuttleFeeder2.Jog_FWD}"/>
+        </connections>
+    </momentaryButton>
+    <momentaryButton name="MomentaryPushButton22" height="35" width="80" left="124" top="235" visible="true" wallpaper="false" isReferenceObject="false" audio="true" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" buttonAction="normallyOpen" description="" holdTime="250" highlightColor="lime" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" currentStateId="0" captionOnBorder="false">
+        <states>
+            <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="0" backColor="#00C000" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="REVERSE" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="1" backColor="lime" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="JOGGING" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+        </states>
+        <animations>
+            <animateVisibility expression="{[CLOGIX]AxisManual_ShuttleFeeder2.JogRev_Available}" expressionTrueState="visible"/>
+        </animations>
+        <connections>
+            <connection name="Value" expression="{[CLOGIX]AxisManual_ShuttleFeeder2.Jog_REV}"/>
+            <connection name="Indicator" expression="{[CLOGIX]AxisCmd_ShuttleFeeder2.Jog_REV}"/>
+        </connections>
+    </momentaryButton>
+    <multistateIndicator name="MultistateIndicator10" height="35" width="80" left="468" top="155" visible="true" wallpaper="false" isReferenceObject="false" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="1" captionOnBorder="false" setLastStateId="2">
+        <states>
+            <state stateId="Error" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="JOG&#xA;UP" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="0" value="0" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="HOME" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="1" value="1" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="HOME" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+        </states>
+        <connections>
+            <connection name="Indicator" expression="{DUMMY_BOOL}"/>
+        </connections>
+    </multistateIndicator>
+    <text name="Text11" height="30" width="400" left="10" top="100" visible="true" wallpaper="false" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="15" bold="true" italic="false" underline="false" strikethrough="false" caption="Diagnostics: Servos 1"/>
+    <text name="Text7" height="35" width="71" left="5" top="155" visible="true" wallpaper="false" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="topLeft" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Flighted&#xA;Infeed"/>
+    <text name="Text13" height="35" width="71" left="5" top="195" visible="true" wallpaper="false" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Shuttle Feeder 1"/>
+    <text name="Text12" height="35" width="71" left="5" top="235" visible="true" wallpaper="false" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Shuttle Feeder 2"/>
+    <numericInputCursorPoint name="NumericInputCursorPoint6" height="35" width="80" left="296" top="195" visible="true" wallpaper="false" isReferenceObject="false" alignment="topCenter" audio="true" backStyle="solid" backColor="#00D0D0" foreColor="black" blink="false" borderStyle="raisedInset" borderUsesBackColor="false" borderWidth="4" description="" highlightColor="lime" borderColor="#A0A0A4" patternColor="white" patternStyle="none" touch="true" horizontalMargin="0" verticalMargin="0" enterKeyControlDelay="400" enterKeyHandshakeTime="4" enterKeyHoldTime="250" handshakeReset="nonZeroValue" keyNavigation="true" decimalPoint="implicit" digitsAfterDecimalPoint="0" numberOfDigits="6" decimalPlaces="1" fixedPosition="stripped" fillLeftWith="none" numericPopup="keypad" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" rampValue="0" useVariableMinMax="true" captionOnPad="" minValue="0.1" maxValue="20">
+        <connections>
+            <connection name="Value" expression="{[CLOGIX]AxisManual_ShuttleFeeder1.Jog_Speed}"/>
+            <connection name="Minimum" expression="0"/>
+            <connection name="Maximum" expression="{[CLOGIX]rMaxShuttleFeederJogSpeed}"/>
+        </connections>
+    </numericInputCursorPoint>
+    <numericDisplay name="NumericDisplay8" height="35" width="80" left="382" top="195" visible="true" wallpaper="false" isReferenceObject="false" backColor="#A0A0A4" backStyle="solid" borderColor="#A0A0A4" borderStyle="raisedInset" borderUsesBackColor="false" borderWidth="4" foreColor="black" alignment="middleCenter" blink="false" patternColor="white" patternStyle="none" description="" decimalPlaces="2" numberOfDigits="6" fillLeftWith="none" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false">
+        <connections>
+            <connection name="Value" expression="{[CLOGIX]AxisManual_ShuttleFeeder1.Actual_Position}"/>
+        </connections>
+    </numericDisplay>
+    <numericInputCursorPoint name="NumericInputCursorPoint3" height="35" width="80" left="296" top="155" visible="true" wallpaper="false" isReferenceObject="false" alignment="topCenter" audio="true" backStyle="solid" backColor="#00D0D0" foreColor="black" blink="false" borderStyle="raisedInset" borderUsesBackColor="false" borderWidth="3" description="" highlightColor="lime" borderColor="#A0A0A4" patternColor="white" patternStyle="none" touch="true" horizontalMargin="0" verticalMargin="0" enterKeyControlDelay="400" enterKeyHandshakeTime="4" enterKeyHoldTime="250" handshakeReset="nonZeroValue" keyNavigation="true" decimalPoint="implicit" digitsAfterDecimalPoint="0" numberOfDigits="4" decimalPlaces="1" fixedPosition="stripped" fillLeftWith="none" numericPopup="keypad" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" rampValue="0" useVariableMinMax="true" captionOnPad="" minValue="1" maxValue="999">
+        <connections>
+            <connection name="Value" expression="{[CLOGIX]AxisManual_FlightedGroupingInfeed.Jog_Speed}"/>
+            <connection name="Minimum" expression="0"/>
+            <connection name="Maximum" expression="{[CLOGIX]rMaxFlightedGroupingInfeedJogSpeed}"/>
+        </connections>
+    </numericInputCursorPoint>
+    <numericDisplay name="NumericDisplay10" height="35" width="80" left="382" top="155" visible="true" wallpaper="false" isReferenceObject="false" backColor="#A0A0A4" backStyle="solid" borderColor="#A0A0A4" borderStyle="raisedInset" borderUsesBackColor="false" borderWidth="4" foreColor="black" alignment="middleCenter" blink="false" patternColor="white" patternStyle="none" description="" decimalPlaces="2" numberOfDigits="6" fillLeftWith="none" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false">
+        <connections>
+            <connection name="Value" expression="{[CLOGIX]AxisManual_FlightedGroupingInfeed.Actual_Position}"/>
+        </connections>
+    </numericDisplay>
+    <text name="Text18" height="40" width="80" left="210" top="120" visible="true" wallpaper="false" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="Press to Jog"/>
+    <text name="Text3" height="40" width="80" left="124" top="120" visible="true" wallpaper="false" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="Press to Jog"/>
+    <text name="Text6" height="40" width="80" left="296" top="120" visible="true" wallpaper="false" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="Jog Speed"/>
+    <text name="Text4" height="40" width="80" left="382" top="120" visible="true" wallpaper="false" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="Actual&#xA;Position"/>
+    <gotoButton name="GotoDisplayButton13" height="35" width="80" left="468" top="155" visible="true" wallpaper="false" isReferenceObject="false" audio="true" backColor="#00C000" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" description="" highlightColor="lime" borderColor="navy" patternColor="white" patternStyle="none" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" blink="false" displayPosition="false" displayLeftPosition="0" displayTopPosition="0" display="Home Flighted Infeed" parameterFile="" parameterList="" parameterType="parameterFile" captionOnBorder="false">
+        <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="HOME" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+        <animations>
+            <animateVisibility expression="{[CLOGIX]Machine_COND.Auto_Run_State_Active} OR ({ACCESS_LEVEL} &lt; 2)" expressionTrueState="invisible"/>
+        </animations>
+    </gotoButton>
+    <multistateIndicator name="MultistateIndicator11" height="35" width="80" left="468" top="235" visible="true" wallpaper="false" isReferenceObject="false" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="1" captionOnBorder="false" setLastStateId="2">
+        <states>
+            <state stateId="Error" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="JOG&#xA;FORWARD" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="0" value="0" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="HOME" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="1" value="1" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="HOME" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+        </states>
+        <connections>
+            <connection name="Indicator" expression="{DUMMY_BOOL}"/>
+        </connections>
+    </multistateIndicator>
+    <gotoButton name="GotoDisplayButton16" height="35" width="80" left="468" top="235" visible="true" wallpaper="false" isReferenceObject="false" audio="true" backColor="#00C000" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" description="" highlightColor="lime" borderColor="navy" patternColor="white" patternStyle="none" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" blink="false" displayPosition="false" displayLeftPosition="0" displayTopPosition="0" display="Home Shuttle Feeder 2" parameterFile="" parameterList="" parameterType="parameterFile" captionOnBorder="false">
+        <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="HOME" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+        <animations>
+            <animateVisibility expression="{[CLOGIX]Machine_COND.Auto_Run_State_Active} OR ({ACCESS_LEVEL} &lt; 2)" expressionTrueState="invisible"/>
+        </animations>
+    </gotoButton>
+    <group name="Group16" visible="true" wallpaper="false" isReferenceObject="false">
+        <multistateIndicator name="MultistateIndicator20" height="120" width="90" left="550" top="235" visible="true" isReferenceObject="false" backStyle="solid" borderStyle="raisedInset" borderUsesBackColor="true" borderWidth="4" description="" shape="rectangle" triggerType="value" currentStateId="1" captionOnBorder="false" setLastStateId="2">
+            <states>
+                <state stateId="Error" backColor="#E0E0E0" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                    <caption fontFamily="Arial" fontSize="12" bold="true" italic="false" underline="false" strikethrough="false" caption="Error" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="0" value="0" backColor="#E0E0E0" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                    <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Enable Servos" color="black" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="1" value="1" backColor="#E0E0E0" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                    <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Enable Servos" color="black" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+            </states>
+            <connections>
+                <connection name="Indicator" expression="{DUMMY_BOOL}"/>
+            </connections>
+        </multistateIndicator>
+        <momentaryButton name="MomentaryPushButton11" height="60" width="60" left="565" top="290" visible="true" isReferenceObject="false" audio="true" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" buttonAction="normallyOpen" description="" holdTime="250" highlightColor="lime" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" currentStateId="1" captionOnBorder="false">
+            <states>
+                <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                    <caption fontFamily="Arial" fontSize="12" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="0" backColor="#F00000" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                    <caption fontFamily="Arial" fontSize="12" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="SelectorSwitchOff_60x60" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="1" backColor="lime" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                    <caption fontFamily="Arial" fontSize="12" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="SelectorSwitchOn_60x60" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+            </states>
+            <connections>
+                <connection name="Value" expression="{[CLOGIX]HMI_bServosOnOff}"/>
+                <connection name="Indicator" expression="{[CLOGIX]HMI_bServosEnabled}"/>
+            </connections>
+        </momentaryButton>
+        <text name="Text15" height="15" width="80" left="555" top="275" visible="true" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="OFF          ON"/>
+    </group>
+    <numericDisplay name="NumericDisplay1" height="22" width="80" left="468" top="130" visible="true" wallpaper="false" isReferenceObject="false" backColor="#A0A0A4" backStyle="solid" borderColor="#A0A0A4" borderStyle="raisedInset" borderUsesBackColor="false" borderWidth="3" foreColor="black" alignment="middleCenter" blink="false" patternColor="white" patternStyle="none" description="" decimalPlaces="2" numberOfDigits="6" fillLeftWith="none" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false">
+        <connections>
+            <connection name="Value" expression="{[CLOGIX]SE00_MasterEncoder.ActualPosition}"/>
+        </connections>
+    </numericDisplay>
+    <text name="Text9" height="30" width="80" left="468" top="100" visible="true" wallpaper="false" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="Wrapper&#xA;Position"/>
+    <multistateIndicator name="MultistateIndicator26" height="35" width="80" left="210" top="155" visible="true" wallpaper="false" isReferenceObject="false" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="0" captionOnBorder="false" setLastStateId="2">
+        <states>
+            <state stateId="Error" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="JOG&#xA;FORWARD" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="0" value="0" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="FORWARD" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="1" value="1" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="FORWARD" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+        </states>
+        <connections>
+            <connection name="Indicator" expression="{DUMMY_BOOL}"/>
+        </connections>
+    </multistateIndicator>
+    <multistateIndicator name="MultistateIndicator1" height="35" width="80" left="124" top="195" visible="true" wallpaper="false" isReferenceObject="false" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="1" captionOnBorder="false" setLastStateId="2">
+        <states>
+            <state stateId="Error" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="JOG&#xA;REVERSE" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="0" value="0" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="REVERSE" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="1" value="1" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="REVERSE" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+        </states>
+        <connections>
+            <connection name="Indicator" expression="{DUMMY_BOOL}"/>
+        </connections>
+    </multistateIndicator>
+    <multistateIndicator name="MultistateIndicator5" height="35" width="80" left="210" top="195" visible="true" wallpaper="false" isReferenceObject="false" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="0" captionOnBorder="false" setLastStateId="2">
+        <states>
+            <state stateId="Error" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="JOG&#xA;FORWARD" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="0" value="0" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="FORWARD" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="1" value="1" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="FORWARD" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+        </states>
+        <connections>
+            <connection name="Indicator" expression="{DUMMY_BOOL}"/>
+        </connections>
+    </multistateIndicator>
+    <momentaryButton name="MomentaryPushButton10" height="35" width="80" left="210" top="195" visible="true" wallpaper="false" isReferenceObject="false" audio="true" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" buttonAction="normallyOpen" description="" holdTime="250" highlightColor="lime" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" currentStateId="0" captionOnBorder="false">
+        <states>
+            <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="0" backColor="#00C000" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="FORWARD" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="1" backColor="lime" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="JOGGING" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+        </states>
+        <animations>
+            <animateVisibility expression="{[CLOGIX]AxisManual_ShuttleFeeder1.JogFwd_Available}" expressionTrueState="visible"/>
+        </animations>
+        <connections>
+            <connection name="Value" expression="{[CLOGIX]AxisManual_ShuttleFeeder1.Jog_FWD}"/>
+            <connection name="Indicator" expression="{[CLOGIX]AxisCmd_ShuttleFeeder1.Jog_FWD}"/>
+        </connections>
+    </momentaryButton>
+    <momentaryButton name="MomentaryPushButton3" height="35" width="80" left="124" top="195" visible="true" wallpaper="false" isReferenceObject="false" audio="true" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" buttonAction="normallyOpen" description="" holdTime="250" highlightColor="lime" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" currentStateId="0" captionOnBorder="false">
+        <states>
+            <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="0" backColor="#00C000" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="REVERSE" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="1" backColor="lime" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="JOGGING" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+        </states>
+        <animations>
+            <animateVisibility expression="{[CLOGIX]AxisManual_ShuttleFeeder1.JogRev_Available}" expressionTrueState="visible"/>
+        </animations>
+        <connections>
+            <connection name="Value" expression="{[CLOGIX]AxisManual_ShuttleFeeder1.Jog_REV}"/>
+            <connection name="Indicator" expression="{[CLOGIX]AxisCmd_ShuttleFeeder1.Jog_REV}"/>
+        </connections>
+    </momentaryButton>
+    <numericInputCursorPoint name="NumericInputCursorPoint2" height="35" width="80" left="296" top="235" visible="true" wallpaper="false" isReferenceObject="false" alignment="topCenter" audio="true" backStyle="solid" backColor="#00D0D0" foreColor="black" blink="false" borderStyle="raisedInset" borderUsesBackColor="false" borderWidth="4" description="" highlightColor="lime" borderColor="#A0A0A4" patternColor="white" patternStyle="none" touch="true" horizontalMargin="0" verticalMargin="0" enterKeyControlDelay="400" enterKeyHandshakeTime="4" enterKeyHoldTime="250" handshakeReset="nonZeroValue" keyNavigation="true" decimalPoint="implicit" digitsAfterDecimalPoint="0" numberOfDigits="6" decimalPlaces="1" fixedPosition="stripped" fillLeftWith="none" numericPopup="keypad" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" rampValue="0" useVariableMinMax="true" captionOnPad="" minValue="0.1" maxValue="20">
+        <connections>
+            <connection name="Value" expression="{[CLOGIX]AxisManual_ShuttleFeeder2.Jog_Speed}"/>
+            <connection name="Minimum" expression="0"/>
+            <connection name="Maximum" expression="{[CLOGIX]rMaxShuttleFeederJogSpeed}"/>
+        </connections>
+    </numericInputCursorPoint>
+    <numericDisplay name="NumericDisplay3" height="35" width="80" left="382" top="235" visible="true" wallpaper="false" isReferenceObject="false" backColor="#A0A0A4" backStyle="solid" borderColor="#A0A0A4" borderStyle="raisedInset" borderUsesBackColor="false" borderWidth="4" foreColor="black" alignment="middleCenter" blink="false" patternColor="white" patternStyle="none" description="" decimalPlaces="2" numberOfDigits="6" fillLeftWith="none" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false">
+        <connections>
+            <connection name="Value" expression="{[CLOGIX]AxisManual_ShuttleFeeder2.Actual_Position}"/>
+        </connections>
+    </numericDisplay>
+    <momentaryButton name="MomentaryPushButton4" height="35" width="80" left="210" top="155" visible="true" wallpaper="false" isReferenceObject="false" audio="true" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" buttonAction="normallyOpen" description="" holdTime="250" highlightColor="lime" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" currentStateId="0" captionOnBorder="false">
+        <states>
+            <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="0" backColor="#00C000" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="FORWARD" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="1" backColor="lime" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="JOGGING" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+        </states>
+        <animations>
+            <animateVisibility expression="{[CLOGIX]AxisManual_FlightedGroupingInfeed.JogFwd_Available}" expressionTrueState="visible"/>
+        </animations>
+        <connections>
+            <connection name="Value" expression="{[CLOGIX]AxisManual_FlightedGroupingInfeed.Jog_FWD}"/>
+            <connection name="Indicator" expression="{[CLOGIX]AxisCmd_FlightedGroupingInfeed.Jog_FWD}"/>
+        </connections>
+    </momentaryButton>
+    <text name="Text10" height="35" width="71" left="5" top="275" visible="true" wallpaper="false" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Shuttle Feeder 3"/>
+    <numericInputCursorPoint name="NumericInputCursorPoint1" height="35" width="80" left="296" top="275" visible="true" wallpaper="false" isReferenceObject="false" alignment="topCenter" audio="true" backStyle="solid" backColor="#00D0D0" foreColor="black" blink="false" borderStyle="raisedInset" borderUsesBackColor="false" borderWidth="4" description="" highlightColor="lime" borderColor="#A0A0A4" patternColor="white" patternStyle="none" touch="true" horizontalMargin="0" verticalMargin="0" enterKeyControlDelay="400" enterKeyHandshakeTime="4" enterKeyHoldTime="250" handshakeReset="nonZeroValue" keyNavigation="true" decimalPoint="implicit" digitsAfterDecimalPoint="0" numberOfDigits="6" decimalPlaces="1" fixedPosition="stripped" fillLeftWith="none" numericPopup="keypad" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" rampValue="0" useVariableMinMax="true" captionOnPad="" minValue="0.1" maxValue="20">
+        <connections>
+            <connection name="Value" expression="{[CLOGIX]AxisManual_ShuttleFeeder3.Jog_Speed}"/>
+            <connection name="Minimum" expression="0"/>
+            <connection name="Maximum" expression="{[CLOGIX]rMaxShuttleFeederJogSpeed}"/>
+        </connections>
+    </numericInputCursorPoint>
+    <numericDisplay name="NumericDisplay2" height="35" width="80" left="382" top="275" visible="true" wallpaper="false" isReferenceObject="false" backColor="#A0A0A4" backStyle="solid" borderColor="#A0A0A4" borderStyle="raisedInset" borderUsesBackColor="false" borderWidth="4" foreColor="black" alignment="middleCenter" blink="false" patternColor="white" patternStyle="none" description="" decimalPlaces="2" numberOfDigits="6" fillLeftWith="none" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false">
+        <connections>
+            <connection name="Value" expression="{[CLOGIX]AxisManual_ShuttleFeeder3.Actual_Position}"/>
+        </connections>
+    </numericDisplay>
+    <multistateIndicator name="MultistateIndicator12" height="35" width="80" left="124" top="275" visible="true" wallpaper="false" isReferenceObject="false" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="1" captionOnBorder="false" setLastStateId="2">
+        <states>
+            <state stateId="Error" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="JOG&#xA;REVERSE" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="0" value="0" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="REVERSE" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="1" value="1" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="REVERSE" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+        </states>
+        <connections>
+            <connection name="Indicator" expression="{DUMMY_BOOL}"/>
+        </connections>
+    </multistateIndicator>
+    <multistateIndicator name="MultistateIndicator13" height="35" width="80" left="210" top="275" visible="true" wallpaper="false" isReferenceObject="false" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="0" captionOnBorder="false" setLastStateId="2">
+        <states>
+            <state stateId="Error" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="JOG&#xA;FORWARD" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="0" value="0" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="FORWARD" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="1" value="1" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="FORWARD" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+        </states>
+        <connections>
+            <connection name="Indicator" expression="{DUMMY_BOOL}"/>
+        </connections>
+    </multistateIndicator>
+    <momentaryButton name="MomentaryPushButton7" height="35" width="80" left="124" top="275" visible="true" wallpaper="false" isReferenceObject="false" audio="true" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" buttonAction="normallyOpen" description="" holdTime="250" highlightColor="lime" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" currentStateId="0" captionOnBorder="false">
+        <states>
+            <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="0" backColor="#00C000" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="REVERSE" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="1" backColor="lime" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="JOGGING" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+        </states>
+        <animations>
+            <animateVisibility expression="{[CLOGIX]AxisManual_ShuttleFeeder3.JogRev_Available}" expressionTrueState="visible"/>
+        </animations>
+        <connections>
+            <connection name="Value" expression="{[CLOGIX]AxisManual_ShuttleFeeder3.Jog_REV}"/>
+            <connection name="Indicator" expression="{[CLOGIX]AxisCmd_ShuttleFeeder3.Jog_REV}"/>
+        </connections>
+    </momentaryButton>
+    <momentaryButton name="MomentaryPushButton12" height="35" width="80" left="210" top="275" visible="true" wallpaper="false" isReferenceObject="false" audio="true" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" buttonAction="normallyOpen" description="" holdTime="250" highlightColor="lime" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" currentStateId="0" captionOnBorder="false">
+        <states>
+            <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="0" backColor="#00C000" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="FORWARD" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="1" backColor="lime" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="JOGGING" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+        </states>
+        <animations>
+            <animateVisibility expression="{[CLOGIX]AxisManual_ShuttleFeeder3.JogFwd_Available}" expressionTrueState="visible"/>
+        </animations>
+        <connections>
+            <connection name="Value" expression="{[CLOGIX]AxisManual_ShuttleFeeder3.Jog_FWD}"/>
+            <connection name="Indicator" expression="{[CLOGIX]AxisCmd_ShuttleFeeder3.Jog_FWD}"/>
+        </connections>
+    </momentaryButton>
+    <multistateIndicator name="MultistateIndicator14" height="35" width="80" left="468" top="275" visible="true" wallpaper="false" isReferenceObject="false" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="1" captionOnBorder="false" setLastStateId="2">
+        <states>
+            <state stateId="Error" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="JOG&#xA;FORWARD" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="0" value="0" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="HOME" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="1" value="1" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="HOME" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+        </states>
+        <connections>
+            <connection name="Indicator" expression="{DUMMY_BOOL}"/>
+        </connections>
+    </multistateIndicator>
+    <gotoButton name="GotoDisplayButton1" height="35" width="80" left="468" top="275" visible="true" wallpaper="false" isReferenceObject="false" audio="true" backColor="#00C000" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" description="" highlightColor="lime" borderColor="navy" patternColor="white" patternStyle="none" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" blink="false" displayPosition="false" displayLeftPosition="0" displayTopPosition="0" display="Home Shuttle Feeder 3" parameterFile="" parameterList="" parameterType="parameterFile" captionOnBorder="false">
+        <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="HOME" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+        <animations>
+            <animateVisibility expression="{[CLOGIX]Machine_COND.Auto_Run_State_Active} OR ({ACCESS_LEVEL} &lt; 2)" expressionTrueState="invisible"/>
+        </animations>
+    </gotoButton>
+    <multistateIndicator name="MultistateIndicator15" height="35" width="80" left="468" top="195" visible="true" wallpaper="false" isReferenceObject="false" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="1" captionOnBorder="false" setLastStateId="2">
+        <states>
+            <state stateId="Error" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="JOG&#xA;FORWARD" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="0" value="0" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="HOME" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="1" value="1" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="HOME" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+        </states>
+        <connections>
+            <connection name="Indicator" expression="{DUMMY_BOOL}"/>
+        </connections>
+    </multistateIndicator>
+    <gotoButton name="GotoDisplayButton17" height="35" width="80" left="468" top="195" visible="true" wallpaper="false" isReferenceObject="false" audio="true" backColor="#00C000" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" description="" highlightColor="lime" borderColor="navy" patternColor="white" patternStyle="none" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" blink="false" displayPosition="false" displayLeftPosition="0" displayTopPosition="0" display="Home Shuttle Feeder 1" parameterFile="" parameterList="" parameterType="parameterFile" captionOnBorder="false">
+        <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="HOME" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+        <animations>
+            <animateVisibility expression="{[CLOGIX]Machine_COND.Auto_Run_State_Active} OR ({ACCESS_LEVEL} &lt; 2)" expressionTrueState="invisible"/>
+        </animations>
+    </gotoButton>
+    <group name="Group1" visible="true" wallpaper="false" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Header.Group1">
+        <group name="Group2" visible="true" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Header.Group2">
+            <rectangle name="Polygon1" height="100" width="640" left="0" top="0" visible="true" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Header.Polygon1" backStyle="solid" backColor="#0088C8" foreColor="black" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black"/>
+            <momentaryButton name="MomentaryPushButton1" height="100" width="120" left="520" top="0" visible="true" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Header.MomentaryPushButton1" audio="false" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" buttonAction="normallyOpen" description="" holdTime="250" highlightColor="green" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" currentStateId="1" captionOnBorder="false">
+                <states>
+                    <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                        <caption fontFamily="Arial" fontSize="18" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                    </state>
+                    <state stateId="0" backColor="silver" borderColor="gray" patternColor="white" patternStyle="none" blink="false">
+                        <caption fontFamily="Arial" fontSize="22.5" bold="true" italic="false" underline="false" strikethrough="false" caption="START" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                    </state>
+                    <state stateId="1" backColor="lime" borderColor="gray" patternColor="white" patternStyle="none" blink="false">
+                        <caption fontFamily="Arial" fontSize="22.5" bold="true" italic="false" underline="false" strikethrough="false" caption="START" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                    </state>
+                </states>
+                <connections>
+                    <connection name="Value" expression="{[CLOGIX]HMI_bStartPB}"/>
+                    <connection name="Indicator" expression="{[CLOGIX]HMI_bStartPBVisible}"/>
+                </connections>
+            </momentaryButton>
+            <momentaryButton name="MomentaryPushButton8" height="100" width="120" left="0" top="0" visible="true" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Header.MomentaryPushButton2" audio="false" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" buttonAction="normallyOpen" description="" holdTime="250" highlightColor="#8C0000" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" currentStateId="0" captionOnBorder="false">
+                <states>
+                    <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                        <caption fontFamily="Arial" fontSize="18" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                    </state>
+                    <state stateId="0" backColor="red" borderColor="gray" patternColor="white" patternStyle="none" blink="false">
+                        <caption fontFamily="Arial" fontSize="22.5" bold="true" italic="false" underline="false" strikethrough="false" caption="STOP" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                    </state>
+                    <state stateId="1" backColor="red" borderColor="gray" patternColor="white" patternStyle="none" blink="false">
+                        <caption fontFamily="Arial" fontSize="22.5" bold="true" italic="false" underline="false" strikethrough="false" caption="STOP" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                    </state>
+                </states>
+                <connections>
+                    <connection name="Value" expression="{[CLOGIX]HMI_bStopPB}"/>
+                </connections>
+            </momentaryButton>
+            <text name="Text5" height="32" width="67" left="120" top="5" visible="true" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Header.Text5" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleRight" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Machine Status:"/>
+            <text name="Text1" height="32" width="67" left="120" top="40" visible="true" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Header.Text1" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleRight" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Current Recipe:"/>
+            <multistateIndicator name="MultistateIndicator4" height="30" width="200" left="200" top="5" visible="true" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Header.MultistateIndicator4" backStyle="solid" borderStyle="raisedInset" borderUsesBackColor="true" borderWidth="4" description="" shape="rectangle" triggerType="value" currentStateId="4" captionOnBorder="false" setLastStateId="15">
+                <states>
+                    <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                        <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                    </state>
+                    <state stateId="0" value="0" backColor="red" borderColor="navy" patternColor="white" patternStyle="none" blink="true">
+                        <caption fontFamily="Arial" fontSize="11" bold="true" italic="false" underline="false" strikethrough="false" caption="SERCOS Ring Not Ready" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                    </state>
+                    <state stateId="1" value="1" backColor="red" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                        <caption fontFamily="Arial" fontSize="11" bold="true" italic="false" underline="false" strikethrough="false" caption="Delivery System Estopped" color="yellow" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="true"/>
+                        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                    </state>
+                    <state stateId="2" value="2" backColor="red" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                        <caption fontFamily="Arial" fontSize="11" bold="true" italic="false" underline="false" strikethrough="false" caption="Feeder System Estopped" color="yellow" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="true"/>
+                        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                    </state>
+                    <state stateId="3" value="3" backColor="red" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                        <caption fontFamily="Arial" fontSize="11" bold="true" italic="false" underline="false" strikethrough="false" caption="Feeder Guard Door Open" color="yellow" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="true"/>
+                        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                    </state>
+                    <state stateId="4" value="4" backColor="#F00000" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                        <caption fontFamily="Arial" fontSize="11" bold="true" italic="false" underline="false" strikethrough="false" caption="Waiting for Safety Reset" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                    </state>
+                    <state stateId="5" value="5" backColor="red" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                        <caption fontFamily="Arial" fontSize="11" bold="true" italic="false" underline="false" strikethrough="false" caption="Alarm Stopped" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                    </state>
+                    <state stateId="6" value="6" backColor="#F00000" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                        <caption fontFamily="Arial" fontSize="11" bold="true" italic="false" underline="false" strikethrough="false" caption="Stopped" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                    </state>
+                    <state stateId="7" value="7" backColor="lime" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                        <caption fontFamily="Arial" fontSize="11" bold="true" italic="false" underline="false" strikethrough="false" caption="Stopping" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                    </state>
+                    <state stateId="8" value="8" backColor="lime" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                        <caption fontFamily="Arial" fontSize="11" bold="true" italic="false" underline="false" strikethrough="false" caption="Starting" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                    </state>
+                    <state stateId="9" value="9" backColor="yellow" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                        <caption fontFamily="Arial" fontSize="11" bold="true" italic="false" underline="false" strikethrough="false" caption="Waiting for Wrapper" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                    </state>
+                    <state stateId="10" value="10" backColor="lime" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                        <caption fontFamily="Arial" fontSize="11" bold="true" italic="false" underline="false" strikethrough="false" caption="Priming Shuttle Feeders" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                    </state>
+                    <state stateId="11" value="11" backColor="#00C000" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                        <caption fontFamily="Arial" fontSize="11" bold="true" italic="false" underline="false" strikethrough="false" caption="Producing Product" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                    </state>
+                    <state stateId="12" value="12" backColor="#FF8000" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                        <caption fontFamily="Arial" fontSize="11" bold="true" italic="false" underline="false" strikethrough="false" caption="Sanitation Mode Running" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                    </state>
+                    <state stateId="13" value="13" backColor="blue" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                        <caption fontFamily="Arial" fontSize="11" bold="true" italic="false" underline="false" strikethrough="false" caption="Homing Required" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                    </state>
+                    <state stateId="14" value="14" backColor="#F0F000" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                        <caption fontFamily="Arial" fontSize="11" bold="true" italic="false" underline="false" strikethrough="false" caption="Manual Mode Running" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                    </state>
+                </states>
+                <connections>
+                    <connection name="Indicator" expression="{[CLOGIX]HMI_dMachineStatus}"/>
+                </connections>
+            </multistateIndicator>
+            <stringDisplay name="StringDisplay1" height="30" width="200" left="200" top="40" visible="true" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Header.StringDisplay1" backColor="teal" backStyle="solid" borderColor="navy" borderStyle="raisedInset" borderUsesBackColor="true" borderWidth="4" foreColor="black" alignment="middleCenter" blink="false" wordWrap="true" patternColor="white" patternStyle="none" description="" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false">
+                <connections>
+                    <connection name="Value" expression="{[CLOGIX]Current_Recipe_Vars.Name}"/>
+                </connections>
+            </stringDisplay>
+            <text name="Text2" height="20" width="85" left="335" top="75" visible="true" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Header.Text2" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleRight" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Security:"/>
+            <timeAndDateDisplay name="TimeDateDisplay1" height="20" width="150" left="200" top="75" visible="true" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Header.TimeDateDisplay1" backColor="navy" foreColor="black" backStyle="transparent" borderColor="navy" borderStyle="none" borderUsesBackColor="true" borderWidth="1" patternColor="white" patternStyle="none" description="" blink="false" wordWrap="true" alignment="middleLeft" timeAndDateFormat="shortDateTime" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false"/>
+            <multistateIndicator name="MultistateIndicator3" height="20" width="55" left="459" top="11" visible="true" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Header.MultistateIndicator1" backStyle="solid" borderStyle="line" borderUsesBackColor="false" borderWidth="1" description="" shape="rectangle" triggerType="value" currentStateId="0" captionOnBorder="false" setLastStateId="2">
+                <states>
+                    <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                        <caption fontFamily="Arial" fontSize="19" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                    </state>
+                    <state stateId="0" value="0" backColor="#F00000" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                        <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="ESTOP" color="black" backColor="red" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="cyan" scaled="false" blink="false"/>
+                    </state>
+                    <state stateId="1" value="1" backColor="lime" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                        <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="OK" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="#00D0D0" scaled="false" blink="false"/>
+                    </state>
+                </states>
+                <connections>
+                    <connection name="Indicator" expression="{[CLOGIX]Z1_b3PhasePowerOn}"/>
+                </connections>
+            </multistateIndicator>
+            <multistateIndicator name="MultistateIndicator2" height="20" width="55" left="458" top="41" visible="true" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Header.MultistateIndicator2" backStyle="solid" borderStyle="line" borderUsesBackColor="false" borderWidth="1" description="" shape="rectangle" triggerType="value" currentStateId="0" captionOnBorder="false" setLastStateId="2">
+                <states>
+                    <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                        <caption fontFamily="Arial" fontSize="19" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                    </state>
+                    <state stateId="0" value="0" backColor="#F00000" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                        <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="ESTOP" color="black" backColor="red" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="cyan" scaled="false" blink="false"/>
+                    </state>
+                    <state stateId="1" value="1" backColor="lime" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                        <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="OK" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="#00D0D0" scaled="false" blink="false"/>
+                    </state>
+                </states>
+                <connections>
+                    <connection name="Indicator" expression="{[CLOGIX]Z2_b3PhasePowerOn}"/>
+                </connections>
+            </multistateIndicator>
+            <text name="Text8" height="20" width="47" left="405" top="11" visible="true" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Header.Text3" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleRight" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Zone 1:"/>
+            <text name="Text14" height="20" width="47" left="404" top="41" visible="true" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Header.Text4" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleRight" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Zone 2:"/>
+            <multistateIndicator name="MultistateIndicator8" height="25" width="90" left="424" top="71" visible="true" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Header.MultistateIndicator5" backStyle="solid" borderStyle="raisedInset" borderUsesBackColor="true" borderWidth="4" description="" shape="rectangle" triggerType="value" currentStateId="0" captionOnBorder="false" setLastStateId="4">
+                <states>
+                    <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                        <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                    </state>
+                    <state stateId="0" value="0" backColor="#A0A0A4" borderColor="lime" patternColor="white" patternStyle="none" blink="false">
+                        <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="OPERATOR" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                    </state>
+                    <state stateId="1" value="1" backColor="yellow" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                        <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="MAINT." color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                    </state>
+                    <state stateId="2" value="2" backColor="#F00000" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                        <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="ENGINEER" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                    </state>
+                    <state stateId="3" value="3" backColor="blue" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                        <caption fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="BENCHMARK" color="yellow" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                    </state>
+                </states>
+                <connections>
+                    <connection name="Indicator" expression="{ACCESS_LEVEL}"/>
+                </connections>
+            </multistateIndicator>
+        </group>
+        <gotoButton name="GotoDisplayButton5" height="97" width="119" left="399" top="1" visible="true" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Header.GotoDisplayButton1" audio="true" backColor="navy" backStyle="transparent" borderStyle="none" borderUsesBackColor="false" borderWidth="1" description="" highlightColor="lime" borderColor="navy" patternColor="white" patternStyle="none" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" blink="false" displayPosition="true" displayLeftPosition="334" displayTopPosition="100" display="Pop Up Login Box" parameterFile="" parameterList="" parameterType="parameterFile" captionOnBorder="false">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+            <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+        </gotoButton>
+    </group>
+    <group name="Group3" visible="true" wallpaper="false" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Footer.Group1">
+        <rectangle name="Polygon2" height="62" width="640" left="0" top="418" visible="true" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Footer.Polygon2" backStyle="solid" backColor="#0088C8" foreColor="black" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black"/>
+        <gotoButton name="GotoDisplayButton3" height="60" width="100" left="324" top="420" visible="true" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Footer.GotoDisplayButton3" audio="true" backColor="teal" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" description="" highlightColor="lime" borderColor="navy" patternColor="black" patternStyle="none" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" blink="false" displayPosition="false" displayLeftPosition="0" displayTopPosition="0" display="Machine Setup" parameterFile="" parameterList="" parameterType="parameterFile" captionOnBorder="false">
+            <caption fontFamily="Arial" fontSize="11" bold="true" italic="false" underline="false" strikethrough="false" caption="Setup" color="black" backColor="black" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+            <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+        </gotoButton>
+        <gotoButton name="GotoDisplayButton6" height="60" width="100" left="108" top="420" visible="true" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Footer.GotoDisplayButton1" audio="true" backColor="#C0C000" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" description="" highlightColor="lime" borderColor="navy" patternColor="black" patternStyle="none" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" blink="false" displayPosition="false" displayLeftPosition="0" displayTopPosition="0" display="Diag Main" parameterFile="" parameterList="" parameterType="parameterFile" captionOnBorder="false">
+            <caption fontFamily="Arial" fontSize="11" bold="true" italic="false" underline="false" strikethrough="false" caption="Diagnostics" color="black" backColor="black" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+            <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+        </gotoButton>
+        <gotoButton name="GotoDisplayButton7" height="60" width="100" left="540" top="420" visible="true" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Footer.GotoDisplayButton2" audio="true" backColor="yellow" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" description="" highlightColor="lime" borderColor="navy" patternColor="black" patternStyle="none" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" blink="false" displayPosition="false" displayLeftPosition="0" displayTopPosition="0" display="Main" parameterFile="" parameterList="" parameterType="parameterFile" captionOnBorder="false">
+            <caption fontFamily="Arial" fontSize="11" bold="true" italic="false" underline="false" strikethrough="false" caption="Main" color="black" backColor="black" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+            <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+        </gotoButton>
+        <momentaryButton name="MomentaryPushButton13" height="60" width="100" left="0" top="420" visible="true" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Footer.MomentaryPushButton1" audio="true" backStyle="solid" borderStyle="raised" borderUsesBackColor="false" borderWidth="2" buttonAction="normallyOpen" description="" holdTime="1000" highlightColor="lime" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" currentStateId="0" captionOnBorder="false">
+            <states>
+                <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                    <caption fontFamily="Arial" fontSize="18" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="0" backColor="#00C000" borderColor="#00C000" patternColor="white" patternStyle="none" blink="false">
+                    <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="NO&#xA;FAULTS" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="1" backColor="red" borderColor="red" patternColor="white" patternStyle="none" blink="true">
+                    <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="CLEAR&#xA;FAULTS" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="true"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+            </states>
+            <animations>
+                <animateVisibility expression="{[CLOGIX]HMI_bFaultResetVisibility}" expressionTrueState="visible"/>
+            </animations>
+            <connections>
+                <connection name="Value" expression="{[CLOGIX]HMI_bClearFaults}"/>
+                <connection name="Indicator" expression="{[CLOGIX]HMI_bFaultResetVisibility}"/>
+            </connections>
+        </momentaryButton>
+        <momentaryButton name="MomentaryPushButton2" height="60" width="100" left="0" top="420" visible="true" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Footer.MomentaryPushButton2" audio="true" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" buttonAction="normallyOpen" description="" holdTime="1000" highlightColor="lime" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" currentStateId="0" captionOnBorder="false">
+            <states>
+                <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                    <caption fontFamily="Arial" fontSize="18" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="0" backColor="#F00000" borderColor="#F00000" patternColor="white" patternStyle="none" blink="false">
+                    <caption fontFamily="Arial" fontSize="11" bold="true" italic="false" underline="false" strikethrough="false" caption="Safety&#xA;Reset" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="1" backColor="red" borderColor="red" patternColor="white" patternStyle="none" blink="true">
+                    <caption fontFamily="Arial" fontSize="11" bold="true" italic="false" underline="false" strikethrough="false" caption="Safety&#xA;Reset" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="true"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+            </states>
+            <animations>
+                <animateVisibility expression="{[CLOGIX]HMI_bEstopResetVisibility}" expressionTrueState="visible"/>
+            </animations>
+            <connections>
+                <connection name="Value" expression="{[CLOGIX]HMI_bEStopResetPB}"/>
+                <connection name="Indicator" expression="{[CLOGIX]HMI_bEstopResetVisibility}"/>
+            </connections>
+        </momentaryButton>
+        <gotoButton name="GotoDisplayButton4" height="60" width="100" left="216" top="420" visible="true" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Footer.GotoDisplayButton4" audio="true" backColor="#00FFD8" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" description="" highlightColor="lime" borderColor="navy" patternColor="black" patternStyle="none" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" blink="false" displayPosition="false" displayLeftPosition="0" displayTopPosition="0" display="Operator Adjustments" parameterFile="" parameterList="" parameterType="parameterFile" captionOnBorder="false">
+            <caption fontFamily="Arial" fontSize="11" bold="true" italic="false" underline="false" strikethrough="false" caption="Adjustments" color="black" backColor="black" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+            <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+        </gotoButton>
+        <gotoButton name="GotoDisplayButton21" height="60" width="100" left="432" top="420" visible="true" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Footer.GotoDisplayButton5" audio="true" backColor="#C00000" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" description="" highlightColor="lime" borderColor="navy" patternColor="black" patternStyle="none" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" blink="false" displayPosition="false" displayLeftPosition="0" displayTopPosition="0" display="Active Alarms" parameterFile="" parameterList="" parameterType="parameterFile" captionOnBorder="false">
+            <caption fontFamily="Arial" fontSize="11" bold="true" italic="false" underline="false" strikethrough="false" caption="Alarms" color="white" backColor="black" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+            <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+        </gotoButton>
+    </group>
+    <group name="Group6" visible="true" wallpaper="false" isReferenceObject="false">
+        <maintainedButton name="MaintainedPushButton3" height="60" width="60" left="565" top="170" visible="true" isReferenceObject="false" audio="true" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" description="" highlightColor="lime" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" nextStateBasedOn="valueControl" currentStateId="0" captionOnBorder="false">
+            <states>
+                <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                    <caption fontFamily="Arial" fontSize="12" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="0" value="0" backColor="#F00000" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                    <caption fontFamily="Arial" fontSize="12" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="SelectorSwitchOff_60x60" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="1" value="1" backColor="lime" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                    <caption fontFamily="Arial" fontSize="12" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="SelectorSwitchOn_60x60" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+            </states>
+            <connections>
+                <connection name="Value" expression="{[CLOGIX]HMI_bServoMaintainedJog}"/>
+                <connection name="Indicator" expression="{[CLOGIX]HMI_bServoMaintainedJog}"/>
+            </connections>
+        </maintainedButton>
+        <text name="Text17" height="15" width="80" left="555" top="155" visible="true" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="OFF           ON"/>
+    </group>
+    <text name="Text16" height="35" width="71" left="5" top="315" visible="true" wallpaper="false" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Overhead &#xA;Sweep"/>
+    <numericInputCursorPoint name="NumericInputCursorPoint4" height="35" width="80" left="296" top="315" visible="true" wallpaper="false" isReferenceObject="false" alignment="topCenter" audio="true" backStyle="solid" backColor="#00D0D0" foreColor="black" blink="false" borderStyle="raisedInset" borderUsesBackColor="false" borderWidth="4" description="" highlightColor="lime" borderColor="#A0A0A4" patternColor="white" patternStyle="none" touch="true" horizontalMargin="0" verticalMargin="0" enterKeyControlDelay="400" enterKeyHandshakeTime="4" enterKeyHoldTime="250" handshakeReset="nonZeroValue" keyNavigation="true" decimalPoint="implicit" digitsAfterDecimalPoint="0" numberOfDigits="4" decimalPlaces="1" fixedPosition="stripped" fillLeftWith="none" numericPopup="keypad" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" rampValue="0" useVariableMinMax="true" captionOnPad="" minValue="0.1" maxValue="20">
+        <connections>
+            <connection name="Value" expression="{[CLOGIX]AxisManual_OverheadSweep.Jog_Speed}"/>
+            <connection name="Minimum" expression="0"/>
+            <connection name="Maximum" expression="{[CLOGIX]rMaxOverheadSweepJogSpeed}"/>
+        </connections>
+    </numericInputCursorPoint>
+    <numericDisplay name="NumericDisplay4" height="35" width="80" left="382" top="315" visible="true" wallpaper="false" isReferenceObject="false" backColor="#A0A0A4" backStyle="solid" borderColor="#A0A0A4" borderStyle="raisedInset" borderUsesBackColor="false" borderWidth="4" foreColor="black" alignment="middleCenter" blink="false" patternColor="white" patternStyle="none" description="" decimalPlaces="2" numberOfDigits="6" fillLeftWith="none" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false">
+        <connections>
+            <connection name="Value" expression="{[CLOGIX]AxisManual_OverheadSweep.Actual_Position}"/>
+        </connections>
+    </numericDisplay>
+    <multistateIndicator name="MultistateIndicator16" height="35" width="80" left="124" top="315" visible="true" wallpaper="false" isReferenceObject="false" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="1" captionOnBorder="false" setLastStateId="2">
+        <states>
+            <state stateId="Error" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="JOG&#xA;REVERSE" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="0" value="0" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="REVERSE" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="1" value="1" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="REVERSE" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+        </states>
+        <connections>
+            <connection name="Indicator" expression="{DUMMY_BOOL}"/>
+        </connections>
+    </multistateIndicator>
+    <multistateIndicator name="MultistateIndicator17" height="35" width="80" left="210" top="315" visible="true" wallpaper="false" isReferenceObject="false" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="0" captionOnBorder="false" setLastStateId="2">
+        <states>
+            <state stateId="Error" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="JOG&#xA;FORWARD" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="0" value="0" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="FORWARD" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="1" value="1" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="FORWARD" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+        </states>
+        <connections>
+            <connection name="Indicator" expression="{DUMMY_BOOL}"/>
+        </connections>
+    </multistateIndicator>
+    <momentaryButton name="MomentaryPushButton6" height="35" width="80" left="124" top="315" visible="true" wallpaper="false" isReferenceObject="false" audio="true" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" buttonAction="normallyOpen" description="" holdTime="250" highlightColor="lime" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" currentStateId="0" captionOnBorder="false">
+        <states>
+            <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="0" backColor="#00C000" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="REVERSE" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="1" backColor="lime" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="JOGGING" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+        </states>
+        <animations>
+            <animateVisibility expression="{[CLOGIX]AxisManual_OverheadSweep.JogRev_Available}" expressionTrueState="visible"/>
+        </animations>
+        <connections>
+            <connection name="Value" expression="{[CLOGIX]AxisManual_OverheadSweep.Jog_REV}"/>
+            <connection name="Indicator" expression="{[CLOGIX]AxisCmd_OverheadSweep.Jog_REV}"/>
+        </connections>
+    </momentaryButton>
+    <momentaryButton name="MomentaryPushButton14" height="35" width="80" left="210" top="315" visible="true" wallpaper="false" isReferenceObject="false" audio="true" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" buttonAction="normallyOpen" description="" holdTime="250" highlightColor="lime" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" currentStateId="0" captionOnBorder="false">
+        <states>
+            <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="0" backColor="#00C000" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="FORWARD" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="1" backColor="lime" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="JOGGING" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+        </states>
+        <animations>
+            <animateVisibility expression="{[CLOGIX]AxisManual_OverheadSweep.JogFwd_Available}" expressionTrueState="visible"/>
+        </animations>
+        <connections>
+            <connection name="Value" expression="{[CLOGIX]AxisManual_OverheadSweep.Jog_FWD}"/>
+            <connection name="Indicator" expression="{[CLOGIX]AxisCmd_OverheadSweep.Jog_FWD}"/>
+        </connections>
+    </momentaryButton>
+    <multistateIndicator name="MultistateIndicator18" height="35" width="80" left="468" top="315" visible="true" wallpaper="false" isReferenceObject="false" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="1" captionOnBorder="false" setLastStateId="2">
+        <states>
+            <state stateId="Error" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="JOG&#xA;FORWARD" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="0" value="0" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="HOME" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="1" value="1" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="HOME" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+        </states>
+        <connections>
+            <connection name="Indicator" expression="{DUMMY_BOOL}"/>
+        </connections>
+    </multistateIndicator>
+    <gotoButton name="GotoDisplayButton8" height="35" width="80" left="468" top="315" visible="true" wallpaper="false" isReferenceObject="false" audio="true" backColor="#00C000" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" description="" highlightColor="lime" borderColor="navy" patternColor="white" patternStyle="none" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" blink="false" displayPosition="false" displayLeftPosition="0" displayTopPosition="0" display="Home Overhead Sweep" parameterFile="" parameterList="" parameterType="parameterFile" captionOnBorder="false">
+        <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="HOME" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+        <animations>
+            <animateVisibility expression="{[CLOGIX]Machine_COND.Auto_Run_State_Active} OR ({ACCESS_LEVEL} &lt; 2)" expressionTrueState="invisible"/>
+        </animations>
+    </gotoButton>
+    <gotoButton name="GotoDisplayButton12" height="50" width="100" left="324" top="366" visible="true" wallpaper="false" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Drive Diags.GotoDisplayButton12" audio="true" backColor="#A0A0A4" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" description="" highlightColor="lime" borderColor="navy" patternColor="black" patternStyle="none" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" blink="false" displayPosition="false" displayLeftPosition="0" displayTopPosition="0" display="Diag Drives Zone 2 Servos 2" parameterFile="" parameterList="" parameterType="parameterFile" captionOnBorder="false">
+        <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Zone 2&#xA;Servos 2" color="black" backColor="black" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+    </gotoButton>
+    <gotoButton name="GotoDisplayButton2" height="50" width="100" left="216" top="366" visible="true" wallpaper="false" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Drive Diags.GotoDisplayButton7" audio="true" backColor="#A0A0A4" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" description="" highlightColor="lime" borderColor="navy" patternColor="black" patternStyle="none" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" blink="false" displayPosition="false" displayLeftPosition="0" displayTopPosition="0" display="Diag Drives Zone 2 Servos 1" parameterFile="" parameterList="" parameterType="parameterFile" captionOnBorder="false">
+        <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Zone 2&#xA;Servos 1" color="black" backColor="black" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+    </gotoButton>
+    <gotoButton name="GotoDisplayButton10" height="50" width="100" left="108" top="366" visible="true" wallpaper="false" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Drive Diags.GotoDisplayButton13" audio="true" backColor="#A0A0A4" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" description="" highlightColor="lime" borderColor="navy" patternColor="black" patternStyle="none" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" blink="false" displayPosition="false" displayLeftPosition="0" displayTopPosition="0" display="Diag Drives Zone 1 Vibrators" parameterFile="" parameterList="" parameterType="parameterFile" captionOnBorder="false">
+        <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Zone 1&#xA;Vibrators" color="black" backColor="black" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+    </gotoButton>
+    <gotoButton name="GotoDisplayButton9" height="50" width="100" left="0" top="366" visible="true" wallpaper="false" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Drive Diags.GotoDisplayButton9" audio="true" backColor="#A0A0A4" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" description="" highlightColor="lime" borderColor="navy" patternColor="black" patternStyle="none" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" blink="false" displayPosition="false" displayLeftPosition="0" displayTopPosition="0" display="Diag Drives Zone 1 VFDs" parameterFile="" parameterList="" parameterType="parameterFile" captionOnBorder="false">
+        <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Zone 1&#xA;VFDs" color="black" backColor="black" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+    </gotoButton>
+    <gotoButton name="GotoDisplayButton11" height="50" width="100" left="540" top="366" visible="true" wallpaper="false" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Drive Diags.GotoDisplayButton8" audio="true" backColor="#F0F000" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" description="" highlightColor="lime" borderColor="navy" patternColor="black" patternStyle="none" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" blink="false" displayPosition="false" displayLeftPosition="0" displayTopPosition="0" display="Diag Main" parameterFile="" parameterList="" parameterType="parameterFile" captionOnBorder="false">
+        <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Main&#xA;Diagnostics" color="black" backColor="black" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+    </gotoButton>
+    <gotoButton name="GotoDisplayButton14" height="50" width="100" left="324" top="366" visible="true" wallpaper="false" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Drive Diags.GotoDisplayButton4" audio="true" backColor="#F0F000" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" description="" highlightColor="lime" borderColor="navy" patternColor="black" patternStyle="none" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" blink="false" displayPosition="false" displayLeftPosition="0" displayTopPosition="0" display="Diag Drives Zone 2 Servos 2" parameterFile="" parameterList="" parameterType="parameterFile" captionOnBorder="false">
+        <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Zone 2&#xA;Servos 2" color="black" backColor="black" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+    </gotoButton>
+    <gotoButton name="GotoDisplayButton18" height="50" width="100" left="108" top="366" visible="true" wallpaper="false" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Drive Diags.GotoDisplayButton3" audio="true" backColor="#F0F000" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" description="" highlightColor="lime" borderColor="navy" patternColor="black" patternStyle="none" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" blink="false" displayPosition="false" displayLeftPosition="0" displayTopPosition="0" display="Diag Drives Zone 1 Vibrators" parameterFile="" parameterList="" parameterType="parameterFile" captionOnBorder="false">
+        <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Zone 1&#xA;Vibrators" color="black" backColor="black" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+    </gotoButton>
+    <gotoButton name="GotoDisplayButton19" height="50" width="100" left="0" top="366" visible="true" wallpaper="false" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Drive Diags.GotoDisplayButton6" audio="true" backColor="#F0F000" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="2" description="" highlightColor="lime" borderColor="navy" patternColor="black" patternStyle="none" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" blink="false" displayPosition="false" displayLeftPosition="0" displayTopPosition="0" display="Diag Drives Zone 1 VFDs" parameterFile="" parameterList="" parameterType="parameterFile" captionOnBorder="false">
+        <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Zone 1&#xA;VFDs" color="black" backColor="black" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+    </gotoButton>
+    <text name="Text19" height="14" width="80" left="296" top="173" visible="true" wallpaper="false" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="in/s"/>
+    <text name="Text20" height="14" width="80" left="296" top="213" visible="true" wallpaper="false" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="deg/s"/>
+    <text name="Text21" height="14" width="80" left="296" top="253" visible="true" wallpaper="false" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="deg/s"/>
+    <text name="Text22" height="14" width="80" left="296" top="293" visible="true" wallpaper="false" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="deg/s"/>
+    <text name="Text23" height="14" width="80" left="296" top="333" visible="true" wallpaper="false" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="in/s"/>
+    <text name="Text24" height="40" width="43" left="76" top="120" visible="true" wallpaper="false" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="Enable&#xA;Status"/>
+    <multistateIndicator name="MultistateIndicator19" height="25" width="25" left="86" top="160" visible="true" wallpaper="false" isReferenceObject="false" backStyle="solid" borderStyle="line" borderUsesBackColor="false" borderWidth="1" description="" shape="circle" triggerType="value" currentStateId="0" captionOnBorder="false" setLastStateId="2">
+        <states>
+            <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="0" value="0" backColor="#F00000" borderColor="black" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="6" bold="false" italic="false" underline="false" strikethrough="false" caption="OFF" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="false" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="1" value="1" backColor="#40FF10" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="6" bold="false" italic="false" underline="false" strikethrough="false" caption="ON" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+        </states>
+        <connections>
+            <connection name="Indicator" expression="{[CLOGIX]S01_FlightedGroupingInfeed.DriveEnableStatus}"/>
+        </connections>
+    </multistateIndicator>
+    <multistateIndicator name="MultistateIndicator21" height="25" width="25" left="86" top="200" visible="true" wallpaper="false" isReferenceObject="false" backStyle="solid" borderStyle="line" borderUsesBackColor="false" borderWidth="1" description="" shape="circle" triggerType="value" currentStateId="0" captionOnBorder="false" setLastStateId="2">
+        <states>
+            <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="0" value="0" backColor="#F00000" borderColor="black" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="6" bold="false" italic="false" underline="false" strikethrough="false" caption="OFF" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="false" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="1" value="1" backColor="#40FF10" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="6" bold="false" italic="false" underline="false" strikethrough="false" caption="ON" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+        </states>
+        <connections>
+            <connection name="Indicator" expression="{[CLOGIX]S02_ShuttleFeeder1.DriveEnableStatus}"/>
+        </connections>
+    </multistateIndicator>
+    <multistateIndicator name="MultistateIndicator22" height="25" width="25" left="87" top="240" visible="true" wallpaper="false" isReferenceObject="false" backStyle="solid" borderStyle="line" borderUsesBackColor="false" borderWidth="1" description="" shape="circle" triggerType="value" currentStateId="0" captionOnBorder="false" setLastStateId="2">
+        <states>
+            <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="0" value="0" backColor="#F00000" borderColor="black" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="6" bold="false" italic="false" underline="false" strikethrough="false" caption="OFF" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="false" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="1" value="1" backColor="#40FF10" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="6" bold="false" italic="false" underline="false" strikethrough="false" caption="ON" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+        </states>
+        <connections>
+            <connection name="Indicator" expression="{[CLOGIX]S03_ShuttleFeeder2.DriveEnableStatus}"/>
+        </connections>
+    </multistateIndicator>
+    <multistateIndicator name="MultistateIndicator23" height="25" width="25" left="87" top="280" visible="true" wallpaper="false" isReferenceObject="false" backStyle="solid" borderStyle="line" borderUsesBackColor="false" borderWidth="1" description="" shape="circle" triggerType="value" currentStateId="0" captionOnBorder="false" setLastStateId="2">
+        <states>
+            <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="0" value="0" backColor="#F00000" borderColor="black" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="6" bold="false" italic="false" underline="false" strikethrough="false" caption="OFF" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="false" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="1" value="1" backColor="#40FF10" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="6" bold="false" italic="false" underline="false" strikethrough="false" caption="ON" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+        </states>
+        <connections>
+            <connection name="Indicator" expression="{[CLOGIX]S04_ShuttleFeeder3.DriveEnableStatus}"/>
+        </connections>
+    </multistateIndicator>
+    <multistateIndicator name="MultistateIndicator24" height="25" width="25" left="86" top="320" visible="true" wallpaper="false" isReferenceObject="false" backStyle="solid" borderStyle="line" borderUsesBackColor="false" borderWidth="1" description="" shape="circle" triggerType="value" currentStateId="0" captionOnBorder="false" setLastStateId="2">
+        <states>
+            <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="0" value="0" backColor="#F00000" borderColor="black" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="6" bold="false" italic="false" underline="false" strikethrough="false" caption="OFF" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="false" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="1" value="1" backColor="#40FF10" borderColor="navy" patternColor="white" patternStyle="none" blink="false">
+                <caption fontFamily="Arial" fontSize="6" bold="false" italic="false" underline="false" strikethrough="false" caption="ON" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+        </states>
+        <connections>
+            <connection name="Indicator" expression="{[CLOGIX]S05_OverheadSweep.DriveEnableStatus}"/>
+        </connections>
+    </multistateIndicator>
+</gfx>
